@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5254869475404375527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5254869475404375525}
+  - component: {fileID: 5254869475404375526}
+  - component: {fileID: -3944435542746820016}
+  - component: {fileID: 8047564227725401893}
+  m_Layer: 0
+  m_Name: Empire
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5254869475404375525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254869475404375527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5254869475404375526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254869475404375527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a6dacc4279b8946a3eac3471cf3db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hexGrid: {fileID: 311090416987627705, guid: 24b82efce31e1514a90a2fc90987b848, type: 3}
+  treasury: 0
+  manpower: 0
+  resources: 
+  soldiers: 0
+  workers: 0
+  ships: 0
+  EmpireIndex: 0
+  empireName: 
+  empireColor: {r: 0, g: 0, b: 0, a: 0}
+  UI: {fileID: 0}
+  activated: 1
+  Capital: {fileID: 0}
+  isPlayerEmpire: 0
+  status: 
+  AtWar: []
+  AtPeace: []
+  AlliedWith: []
+  NAPWith: []
+  IRWith: []
+  MAWith: []
+  PreWarSize: 0
+  boatrBuffs: 
+  treeBoat: 
+  soliderBuffs: 
+  treeSoldier: 
+  consturctionBuffs: 
+  treeConsturction: 
+  doctrineBuffs: 
+  treeDoctrine: 
+  TotalResearchScore: 0
+  empireCells: []
+  Urban: []
+  farms: []
+  Cities: []
+  Temples: []
+  units: []
+  dipEmpires: []
+  knownEmpires: []
+  exploredCells: []
+--- !u!114 &-3944435542746820016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254869475404375527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f045143c2a5a7f44b81febf991644871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  currenEmpire: {fileID: 0}
+  Grid: {fileID: 0}
+--- !u!114 &8047564227725401893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254869475404375527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e976b7547cd6240a6fce05e603fb51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TradeHub: {fileID: 4753415424619177330, guid: cce8ee4807abdf44bab1b5f60cff2607,
+    type: 3}
+  UI: {fileID: 7679054297062388347, guid: 37ef39f4399103b4a891a1bb8b48d5b3, type: 3}
+  manager: {fileID: 6387730284269293271, guid: e333dbb61a4fc134eabbd5a1d7c3f64e, type: 3}
